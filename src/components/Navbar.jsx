@@ -1,27 +1,28 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import resume from "../assets/Maksym Rusnak resume.pdf";
+import { useState } from "react";
 
 const Navbar = () => {
 
 
 
-
+    // const [darkMode, setDarkMode] = useState(false);
 
 
     return (
         <>
-        <nav className="p-10 mb-10 flex justify-between sticky top-0 z-50 backdrop-blur-sm">
+        <nav className="p-5 pt-10 mb-10 flex justify-between sticky top-0 z-50 backdrop-blur-sm">
         <h1 className="text-xl font-burtons">Hello, world!</h1>
         <ul className="flex flex-wrap items-center">
           <li>
             
-            <BsFillMoonStarsFill
+            {/* <BsFillMoonStarsFill
               onClick={() => {
                 setDarkMode(!darkMode);
                 console.log("ok");
               }}
               className="cursor-pointer"
-            />
+            /> */}
           </li>
           <li>
             

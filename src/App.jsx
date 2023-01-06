@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ProjectOne from "./components/ProjectOne";
-import ProjectTwo from "./components/ProjectTwo";
-import ProjectThree from "./components/ProjectThree";
+import Project1 from "./components/Project1";
+import Project2 from "./components/Project2";
+import Project3 from "./components/Project3";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -10,9 +10,7 @@ import {
 import "./App.css";
 import Navbar from "./components/Navbar";
 import photo from "../src/assets/1521156606.svg";
-import design from "../src/assets/pngaaa.com-2260683.png";
-import code from "../src/assets/pngfind.com-random-png-24642.png";
-import consultation from "../src/assets/Sale banner design Free PNG - 480x480.png";
+
 
 
 
@@ -26,7 +24,7 @@ function App() {
       <div className={darkMode ? "dark" : ""}>
         <main className="bg-white px-30 md:px-30  lg:px-40 dark:bg-gray-900">
      
-<Navbar />
+<Navbar  />
           {/* <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'> */}
           <section className=" min-h-screen ">
             {/* <nav className='p-10 mb-10 flex justify-between sticky top-0 z-50'>
@@ -74,17 +72,17 @@ function App() {
           </section>
 
           <section id="projects">
-            <h1 className="text-center text-5xl text-gray-700">Projects</h1>
+            <h1 className="text-center font-burtons text-5xl text-gray-700">Projects</h1>
 
 
-<ProjectOne />
+<Project1 />
 
 
-        <ProjectTwo />
+        <Project2 />
 
 
 
-        <ProjectThree />
+        <Project3 />
 
        
           </section>
