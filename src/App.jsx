@@ -1,18 +1,21 @@
 import { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import ProjectOne from "./components/ProjectOne";
+import ProjectTwo from "./components/ProjectTwo";
+import ProjectThree from "./components/ProjectThree";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
 import "./App.css";
+import Navbar from "./components/Navbar";
 import photo from "../src/assets/1521156606.svg";
 import design from "../src/assets/pngaaa.com-2260683.png";
 import code from "../src/assets/pngfind.com-random-png-24642.png";
 import consultation from "../src/assets/Sale banner design Free PNG - 480x480.png";
-import pic1 from "../src/assets/1e16ed09.jpeg";
-import pic2 from "../src/assets/Screen Shot 2023-01-04 at 4.10.06 PM.png";
-import resume from "../src/assets/Maksym Rusnak resume.pdf";
+
+
+
 import backgroundImg from "../src/assets/dunes.jpg";
 
 function App() {
@@ -22,61 +25,8 @@ function App() {
     <div className="App">
       <div className={darkMode ? "dark" : ""}>
         <main className="bg-white px-30 md:px-30  lg:px-40 dark:bg-gray-900">
-          <nav className="p-10 mb-10 flex justify-between sticky top-0 z-50 backdrop-blur-sm">
-            <h1 className="text-xl font-burtons">Hello, world!</h1>
-            <ul className="flex items-center">
-              <li>
-                {" "}
-                <BsFillMoonStarsFill
-                  onClick={() => {
-                    setDarkMode(!darkMode);
-                    console.log("ok");
-                  }}
-                  className="cursor-pointer"
-                />{" "}
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-4 py-2 rounded-md ml-8"
-                  href={resume}
-                  target="_blank"
-                >
-                  Resume
-                </a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-4 py-2 rounded-md ml-8"
-                  href="https://github.com/mkrusnak"
-                  target="_blank"
-                >
-                  Github
-                </a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-4 py-2 rounded-md ml-8"
-                  href="https://www.linkedin.com/in/mkrusnak"
-                  target="_blank"
-                >
-                  LinkedIn
-                </a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-4 py-2 rounded-md ml-8"
-                  href="#projects"
-                >
-                  Projects
-                </a>{" "}
-              </li>
-            </ul>
-          </nav>
-
+     
+<Navbar />
           {/* <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'> */}
           <section className=" min-h-screen ">
             {/* <nav className='p-10 mb-10 flex justify-between sticky top-0 z-50'>
@@ -98,7 +48,7 @@ function App() {
                 Maksym Rusnak
               </h2>
               <h3 className="text-2xl py-2 md:text-3xl">
-                <span className="text-teal-600">Ful-stack</span> software
+                <span className="text-teal-600">Full-stack</span> software
                 developer
               </h3>
               <p className="text-medium py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
@@ -124,100 +74,22 @@ function App() {
           </section>
 
           <section id="projects">
-
-<h1 className="text-center text-5xl text-gray-700">Projects</h1>
-
-          <div className="">
-
-<div className='text-center flex max-w-6xl min-w-fit shadow-lg p-10 rounded-xl m-10  dark:bg-white  ' >
+            <h1 className="text-center text-5xl text-gray-700">Projects</h1>
 
 
+<ProjectOne />
 
 
-
-  <div className="object-center static" >
-    <img
-      className="rounded-lg object-cover static m-2 w-100 h-100"
-      src={pic1}
-    />
-    </div>
-
-    <div className="p-20">
-      <h1 className=" text-lg">Inline Post</h1>
-      <h4>Car enthusiast forum</h4>
-      <ul>
-        <li>
-          • Single page application developed using MongoDB,
-          ExpressJs, React and NodeJs
-        </li>
-        <li>
-          • Developed REST API with ability to CRUD models on the
-          frontend
-        </li>
-        <li>
-          • Designed Authentication middleware using JSON Web
-          Token and bcryptJs to handle passwords
-        </li>
-        <li>
-          • Used JWT Payload to set up admin role and protect the
-          routes
-        </li>
-      </ul>
-    </div>
-
-
-    <div className="object-center static" >
-    <img
-      className="rounded-lg object-cover static m-2 w-100 h-100"
-      src={pic1}
-    />
-    </div>
-
-    <div className="p-20">
-      <h1 className=" text-lg">Inline Post</h1>
-      <h4>Car enthusiast forum</h4>
-      <ul>
-        <li>
-          • Single page application developed using MongoDB,
-          ExpressJs, React and NodeJs
-        </li>
-        <li>
-          • Developed REST API with ability to CRUD models on the
-          frontend
-        </li>
-        <li>
-          • Designed Authentication middleware using JSON Web
-          Token and bcryptJs to handle passwords
-        </li>
-        <li>
-          • Used JWT Payload to set up admin role and protect the
-          routes
-        </li>
-      </ul>
-    </div>
+        <ProjectTwo />
 
 
 
-    
+        <ProjectThree />
 
+       
+          </section>
 
-
-
-  </div>
-</div> 
-
-
-
-
-</section>
-
-
-
-
-           
-            
-
-            {/* <div >
+          {/* <div >
     <h1 className='text-3xl py-1 text-center'>Projects i worked on</h1>
     <p className='text-md py-2 leading-8 text-gray-800'>this is all the <span className='text-teal-500'>projects</span> that i worked
      on they are all listed here</p>
@@ -268,9 +140,8 @@ function App() {
 
 
 </div> */}
-        
 
-          <section>
+          {/* <section>
             <div>
               <h3 className="text-3xl py-1">Portfolio</h3>
 
@@ -318,7 +189,7 @@ function App() {
                 />
               </div>
             </div>
-          </section>
+          </section> */}
         </main>
       </div>
     </div>
