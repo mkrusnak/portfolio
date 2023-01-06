@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: 'burtons'
+      },
+      backgroundImage: {
+        'backgroundImg': "url('./src/assets/dunes.jpg')",
       }
     },
   },

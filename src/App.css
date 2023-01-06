@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+   }
+
+/* .landingPage {
+    background-image: url('../src/assets/dunes.jpg');
+   background-repeat: no-repeat;
+    background-size: contain;
+    
+} */
