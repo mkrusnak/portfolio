@@ -5,7 +5,7 @@ const Project2Links = () => {
   return (
     <div className="flex flex-wrap">
       <a
-        href="https://github.com/mkrusnak/Inline-Post-forum-backend"
+        href="https://github.com/mkrusnak/Find-a-Friend-project"
         target="_blank"
       >
         <button

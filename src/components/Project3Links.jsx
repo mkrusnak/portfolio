@@ -31,7 +31,7 @@ const Project3Links = () => {
       </a>
 
 
-      <a href="https://youtu.be/ff3k5rq2Ke4" target="_blank">
+      <a href="https://youtu.be/bdSQZAgviW0" target="_blank">
         <button
           type="button"
           className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
@@ -41,7 +41,7 @@ const Project3Links = () => {
         </button>
       </a>
 
-      <a href="https://mkrusnak.github.io/Bee-Game-Project/" target="_blank">
+      <a href="https://mkrusnak.github.io/Bee-Game-project/" target="_blank">
         <button
           type="button"
           className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"

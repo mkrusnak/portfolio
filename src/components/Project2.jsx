@@ -10,7 +10,7 @@ const Project2 = () => {
 
     return(
 
-        <div className="text-left flex-col max-w-6xl min-w-fit shadow-lg p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
+        <div className="text-left flex-col max-w-6xl min-w-fit shadow-xl p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
              
        
 

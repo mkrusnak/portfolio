@@ -8,7 +8,9 @@ const Project1 = () => {
 
        
 
-        <div className="text-left flex-col max-w-6xl min-w-fit shadow-lg p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
+        <div className="
+        bg-gradient-to-r from-red-50 via-gray-50 to-blue-50
+        text-left flex-col max-w-6xl min-w-fit shadow-xl p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
              
         <div className="object-center  self-center  static">
           <img

@@ -10,6 +10,7 @@ import {
 } from "react-icons/ai";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import MyLinks from "./components/MyLinks";
 import photo from "../src/assets/1521156606.svg";
 
 
@@ -23,11 +24,11 @@ function App() {
   return (
     <div className="App">
       <div className={darkMode ? "dark" : ""}>
-        <main className="bg-white px-30 md:px-30  lg:px-40 dark:bg-gray-900">
+        <main className="bg-white  px-30 md:px-30  lg:px-40 dark:bg-gray-900">
      
 <Navbar  />
           {/* <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'> */}
-          <section className=" min-h-screen ">
+          <section className=" ">
             {/* <nav className='p-10 mb-10 flex justify-between sticky top-0 z-50'>
 <h1 className='text-xl font-burtons'>Navbar menu</h1>
 <ul className='flex items-center'>
@@ -40,8 +41,8 @@ function App() {
 </ul>
 </nav> */}
 
-            <div className="text-center p-10 pt-30">
-              {/* <h2 className='text-5xl py-2 font-medium md:text-6xl'> I am</h2> */}
+            <div className="text-center  min-h-screen p-10 pt-30">
+            <div className="">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
                 {" "}
                 Maksym Rusnak
@@ -50,12 +51,15 @@ function App() {
                 <span className="text-teal-600">Full-stack</span> software
                 developer
               </h3>
+              <MyLinks />
               <p className="text-medium py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
                 {" "}
                 Strong professional driven by a desire to contribute and make a
                 difference. I enjoy working on complex things, connecting dots
                 together and building the full picture from the ground up
               </p>
+              </div>
+           
             </div>
 
             {/* <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -72,8 +76,8 @@ function App() {
 </div> */}
           </section>
 
-          <section id="projects">
-            <h1 className="text-center font-burtons text-5xl text-gray-700">Projects</h1>
+          <section >
+            <h1 id="projects"  className="text-center mt-28 font-burtons text-5xl text-gray-700">Projects</h1>
 
 
 <Project1 />
