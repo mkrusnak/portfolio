@@ -2,6 +2,7 @@ import { useState } from "react";
 import Project1 from "./components/Project1";
 import Project2 from "./components/Project2";
 import Project3 from "./components/Project3";
+import ContactForm from "./components/ContactForm";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -86,6 +87,12 @@ function App() {
 
        
           </section>
+
+
+<ContactForm />
+
+
+
 
           {/* <div >
     <h1 className='text-3xl py-1 text-center'>Projects i worked on</h1>

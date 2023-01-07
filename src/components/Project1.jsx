@@ -10,14 +10,14 @@ const Project1 = () => {
 
         <div className="text-left flex-col max-w-6xl min-w-fit shadow-lg p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
              
-        <div className="object-center static">
+        <div className="object-center  self-center  static">
           <img
-            className="rounded-lg   object-cover  m-2 w-100 h-100"
+            className="rounded-lg  object-cover  m-2 w-100 h-100"
             src={project1Pic}
           />
         </div>
 
-        <div className="p-1 md:p-10 flex-col ">
+        <div className="p-1 md:p-10 md:pt-5  flex-col ">
           <h1 className="text-center pb-3 text-4xl font-burtons ">Inline Post</h1>
           <h4 className="italic py-2 text-xl text-gray-700">Car enthusiast forum with ability to post, comment, send private messages, list cars for sale and more.</h4>
           <ul className="space-y-2">

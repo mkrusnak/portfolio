@@ -14,13 +14,12 @@ const Project2 = () => {
              
        
 
-        <div className="p-1 md:p-10 flex-col ">
+        <div className="p-1 md:p-10 md:pr-5 md:pt-5 flex-col ">
           <h1 className="text-center pb-3 text-4xl font-burtons ">Find a Friend</h1>
           <h4 className="italic py-2 text-xl text-gray-700">Pet adoption service that helps you find animals available for adoption and more.</h4>
           <ul className="space-y-2">
             <li>
-              • Single page application developed using MongoDB,
-              ExpressJs, React and NodeJs
+              • Single page application developed using MongoDB, ExpressJs, React and NodeJs
             </li>
             <li>
               • Built REST API and implemented ability to CRUD models on the
@@ -43,7 +42,7 @@ const Project2 = () => {
         </div>
 
 
-        <div className="object-center static">
+        <div className="object-center self-center static">
           <img
             className="rounded-lg  object-cover  m-2 w-100 h-100"
             src={project2Pic}

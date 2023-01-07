@@ -28,7 +28,7 @@ const Project1Logos = () => {
       />
     
       <img
-        className="w-14 m-4 rounded-xl"
+        className="w-14 m-3 rounded-xl"
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
         alt="logo"
       />

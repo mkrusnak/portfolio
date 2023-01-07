@@ -1,7 +1,7 @@
 
 
 
-const Project2Logos = () => { 
+const Project3Logos = () => { 
     return(
 
 <div className="flex flex-wrap py-4 mt-1">
@@ -12,15 +12,15 @@ const Project2Logos = () => {
   />
   <img
     className="w-14 m-3 rounded-xl"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
     alt="logo"
   />
   <img
     className="w-14 m-3 rounded-xl"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
     alt="logo"
   />
-    <img
+    {/* <img
     className="w-14 m-3 rounded-xl"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
     alt="logo"
@@ -32,11 +32,12 @@ const Project2Logos = () => {
   />
 
   <img
-    className="w-14 m-3 mr-1 rounded-xl"
+    className="w-14 m-4 rounded-xl"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
     alt="logo"
-  />
+  /> */}
+
 </div>
 ) } 
 
-export default Project2Logos;
+export default Project3Logos;

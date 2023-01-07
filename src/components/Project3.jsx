@@ -1,6 +1,6 @@
-import Project1Logos from "./Project1Logos";
-import project1Pic from "../assets/1e16ed09.jpeg";
-import Project1Links from "./Project1Links";
+import Project3Logos from "./Project3Logos";
+import project2Pic from "../assets/project2Pic.jpg";
+import Project3Links from "./Project3Links";
 
 const Project3 = () => {
 
@@ -10,24 +10,23 @@ const Project3 = () => {
 
         <div className="text-left flex-col max-w-6xl min-w-fit shadow-lg p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
              
-        <div className="object-center static">
+        <div className="object-center self-center static">
           <img
             className="rounded-lg   object-cover  m-2 w-100 h-100"
-            src={project1Pic}
+            src={project2Pic}
           />
         </div>
 
-        <div className="p-1 md:p-10 flex-col ">
+        <div className="p-1 md:p-10 md:pt-5 flex-col ">
           <h1 className="text-center pb-3 text-4xl font-burtons ">Save the Bees</h1>
-          <h4 className="italic py-2 text-xl text-gray-700">Simple canvas where you have to help the Bee collect flowers until the time runs out, make sure you don't <span className="font-bold">get hit by missile 🚀.</span> </h4>
-          <ul className="space-y-2">
+          <h4 className="italic py-2 text-xl text-gray-700">Help a Bee collect flowers
+           until the time runs out. Make sure you <span className="font-bold">don't get hit by missile </span>🚀 in the process.</h4>
+          <ul className="space-y-2 text-gray-700">
             <li>
-              • Single page application developed using MongoDB,
-              ExpressJs, React and NodeJs
+              • Canvas 2D game built using HTML, CSS, Javascript
             </li>
             <li>
-              • Built REST API and implemented ability to CRUD models on the
-              frontend
+              • Used DOM Manipulation so user can control the game with mouse imputs
             </li>
             <li>
               • Designed Authentication middleware using JSON Web Token
@@ -39,9 +38,9 @@ const Project3 = () => {
             </li>
           </ul>
 
-<Project1Logos />
+<Project3Logos />
 
-<Project1Links />
+<Project3Links />
 
         </div>
       </div>
