@@ -23,10 +23,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        burtons: 'burtons'
+        burtons: 'burtons',
+        garamond: 'Garamond'
       },
       backgroundImage: {
-        'backgroundImg': "url('./src/assets/dunes.jpg')",
+        'backgroundImg': "url('src/assets/output-onlinepngtools (2).png')",
       }
     },
   },

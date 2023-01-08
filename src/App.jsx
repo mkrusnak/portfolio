@@ -11,12 +11,12 @@ import {
 import "./App.css";
 import Navbar from "./components/Navbar";
 import MyLinks from "./components/MyLinks";
-import photo from "../src/assets/1521156606.svg";
+import photo from "../src/assets/webdev.svg";
 
 
 
 
-import backgroundImg from "../src/assets/dunes.jpg";
+import backgroundImg from "../src/assets/PngItem_409754.png";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -28,7 +28,7 @@ function App() {
      
 <Navbar  />
           {/* <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'> */}
-          <section className=" ">
+          <section  className=" ">
             {/* <nav className='p-10 mb-10 flex justify-between sticky top-0 z-50'>
 <h1 className='text-xl font-burtons'>Navbar menu</h1>
 <ul className='flex items-center'>
@@ -41,14 +41,14 @@ function App() {
 </ul>
 </nav> */}
 
-            <div className="text-center  min-h-screen p-10 pt-30">
-            <div className="">
+            <div className="text-center bg-backgroundImg  bg-opacity-75   min-h-screen p-10 pt-30">
+            <div  className="">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
                 {" "}
                 Maksym Rusnak
               </h2>
               <h3 className="text-2xl py-2 md:text-3xl">
-                <span className="text-teal-600">Full-stack</span> software
+                <span className="text-gray-700">Full-stack</span> software
                 developer
               </h3>
               <MyLinks />
@@ -60,12 +60,12 @@ function App() {
               </p>
               </div>
            
-              <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
+              {/* <div className='relative mx-auto  w-100 h-100 overflow-hidden md:h-96 md:w-96'>
 
-<img src={photo} />
+<img className="grayscale" src={photo} />
 
 
-</div> 
+</div>  */}
 
             </div>
 

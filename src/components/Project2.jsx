@@ -21,19 +21,16 @@ const Project2 = () => {
           <h4 className="italic py-2 text-xl text-gray-700">Pet adoption service that helps you find animals available for adoption and more.</h4>
           <ul className="space-y-2">
             <li>
-              • Single page application developed using MongoDB, ExpressJs, React and NodeJs
+              • Built using ExpressJs, NodeJs, Axios, MongoDB and HandlebarsJs
             </li>
             <li>
-              • Built REST API and implemented ability to CRUD models on the
-              frontend
+              • Implemented 3rd party REST API using Axios to get data and filter it based on users input
             </li>
             <li>
-              • Designed Authentication middleware using JSON Web Token
-              and bcryptJs to handle passwords
+              • Connected MongoDB to give user the ability to CRUD models
             </li>
             <li>
-              • Used JWT Payload to set up admin role and protect the
-              routes
+              • Set up authentication using Express-Session and bcryptJs to hash passwords
             </li>
           </ul>
 

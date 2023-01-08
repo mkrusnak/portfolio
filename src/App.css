@@ -16,6 +16,24 @@ html {
 
 
 
+.homePage {
+    background-image: url('./assets/leone-venter-VieM9BdZKFo-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.bgrnd {
+    background-image: url('./assets/output-onlineimagetools.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+
+
 .modal, .overlay {
     width: 100vw;
     height: 100vh;
