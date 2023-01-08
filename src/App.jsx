@@ -56,10 +56,17 @@ function App() {
                 {" "}
                 Strong professional driven by a desire to contribute and make a
                 difference. I enjoy working on complex things, connecting dots
-                together and building the full picture from the ground up
+                together and building the a picture from the ground up
               </p>
               </div>
            
+              <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
+
+<img src={photo} />
+
+
+</div> 
+
             </div>
 
             {/* <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -68,12 +75,9 @@ function App() {
   <AiFillLinkedin />
 </div>
 
-<div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
-
-<img src={photo} />
+*/}
 
 
-</div> */}
           </section>
 
           <section >

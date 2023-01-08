@@ -1,5 +1,5 @@
 import Project3Logos from "./Project3Logos";
-import project2Pic from "../assets/project2Pic.jpg";
+import project3Pic from "../assets/eduardo-goody-hP9S-xsS2WM-unsplash-1.jpeg";
 import Project3Links from "./Project3Links";
 
 const Project3 = () => {
@@ -8,19 +8,22 @@ const Project3 = () => {
 
        
 
-        <div className="text-left flex-col max-w-6xl min-w-fit shadow-xl p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
+        <div className="text-left
+       my-20
+        bg-gradient-to-r from-purple-100 via-yellow-50 to-green-50
+         flex-col max-w-6xl min-w-fit shadow-xl p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
              
         <div className="object-center self-center static">
           <img
-            className="rounded-lg   object-cover  m-2 w-100 h-100"
-            src={project2Pic}
+            className="rounded-lg object-cover  m-2 w-100 h-100"
+            src={project3Pic}
           />
         </div>
 
         <div className="p-1 md:p-10 md:pt-5 flex-col ">
           <h1 className="text-center pb-3 text-4xl font-burtons ">Save the Bees</h1>
           <h4 className="italic py-2 text-xl text-gray-700">Help a Bee collect flowers
-           until the time runs out. Make sure you <span className="font-bold">don't get hit by missile </span>🚀 in the process.</h4>
+           until the time runs out. Make sure you <span className="font-bold">don't get hit by missile </span>🚀  in the process.</h4>
           <ul className="space-y-2 text-gray-700">
             <li>
               • Canvas 2D game built using HTML, CSS, Javascript

@@ -15,9 +15,9 @@ const Navbar = () => {
 
     return (
         <>
-        <nav className="p-5 pb-2 pt-10 mb-10 flex justify-between sticky top-0 z-50 backdrop-blur-sm">
-        <h1 className="text-xl font-burtons">Hello, world!</h1>
-        <ul className="flex flex-wrap items-center">
+        <nav className="p-3 pb-3   shadow-md rounded-md  sticky top-0 z-50 backdrop-blur-sm">
+    
+        <ul className="flex flex-wrap justify-center items-center">
           <li>
             
             {/* <BsFillMoonStarsFill
@@ -63,12 +63,13 @@ const Navbar = () => {
           <li>
           <a
               href="#projects"
+              
             >
           <button
           type="button"
-          className="text-gray-900   hover:bg-gray-100  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 "
+          className="text-gray-900 hover:bg-gray-100  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 "
         >
-         <img src={projectsLogo} alt="emailLogo" className="w-7 h-6 mr-2 " />
+         <img src={projectsLogo} alt="emailLogo" className="w-8 h-7 mr-2 " />
           Projects
         </button>
         </a>
