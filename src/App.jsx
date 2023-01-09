@@ -42,7 +42,7 @@ function App() {
 </nav> */}
 
             <div className="text-center rounded-3xl   bgrnd  min-h-screen p-10 pt-2">
-            <div  className="pt-28 md:pt-20">
+            <div  className="pt-16 md:pt-20">
               <h1 className="text-5xl tracking-wide py-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400 font-burtons  md:text-7xl">
                
                 Maksym Rusnak
