@@ -41,7 +41,7 @@ function App() {
 </ul>
 </nav> */}
 
-            <div className="text-center rounded-3xl bg-backgroundImg  bg-opacity-75   min-h-screen p-10 pt-2">
+            <div className="text-center rounded-3xl   bgrnd  min-h-screen p-10 pt-2">
             <div  className="pt-20">
               <h1 className="text-5xl tracking-wider py-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400 font-burtons  md:text-7xl">
                

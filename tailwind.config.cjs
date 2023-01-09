@@ -21,6 +21,8 @@ module.exports = {
       '2xl': '1439px',
       // => @media (min-width: 1536px) { ... }
     },
+
+    
     extend: {
       fontFamily: {
         burtons: 'burtons',
