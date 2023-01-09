@@ -9,7 +9,7 @@ const Project1 = () => {
        
 
         <div className="
-        my-20
+        mb-28 mt-10
         bg-gradient-to-r from-red-100 via-gray-50 to-blue-50
         text-left flex-col max-w-6xl min-w-fit shadow-xl p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
              
@@ -21,9 +21,9 @@ const Project1 = () => {
         </div>
 
         <div className="p-1 md:p-10 md:pt-5  flex-col ">
-          <h1 className="text-center pb-3 text-4xl font-burtons ">Inline Post</h1>
-          <h4 className="italic py-2 text-xl text-gray-700">Car enthusiast forum with ability to post, comment, send private messages, list cars for sale and more.</h4>
-          <ul className="space-y-2">
+          <h1 className="text-center text-gray-800 pb-3 text-4xl font-burtons ">Inline Post</h1>
+          <h4 className="italic py-2 indent-1 text-lg text-gray-800">Car enthusiast forum with ability to post, comment, send private messages, list cars for sale and more.</h4>
+          <ul className="space-y-2 text-gray-700 text-lg">
             <li>
               • Single page application developed using MongoDB,
               ExpressJs, React and NodeJs

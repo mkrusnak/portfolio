@@ -9,7 +9,7 @@ const Project3 = () => {
        
 
         <div className="text-left
-       my-20
+       mb-10
         bg-gradient-to-r from-purple-100 via-yellow-50 to-green-50
          flex-col max-w-6xl min-w-fit shadow-xl p-6  rounded-xl m-6 md:flex-row lg:flex xl:flex  dark:bg-white  ">
              
@@ -21,10 +21,10 @@ const Project3 = () => {
         </div>
 
         <div className="p-1 md:p-10 md:pt-5 flex-col ">
-          <h1 className="text-center pb-3 text-4xl font-burtons ">Save the Bees</h1>
-          <h4 className="italic py-2 text-xl text-gray-700">Help a Bee collect flowers
+          <h1 className="text-center pb-3 text-gray-800 text-4xl font-burtons ">Save the Bees</h1>
+          <h4 className="italic py-2 indent-1 text-lg text-gray-800">Help the Bee collect flowers
            until the time runs out. Make sure you <span className="font-bold">don't get hit by missile </span>🚀  in the process.</h4>
-          <ul className="space-y-2 text-gray-700">
+          <ul className="space-y-2 text-lg text-gray-700">
             <li>
               • Canvas 2D game built using HTML, CSS, Javascript
             </li>
@@ -32,12 +32,10 @@ const Project3 = () => {
               • Used DOM Manipulation so user can control the game with mouse imputs
             </li>
             <li>
-              • Designed Authentication middleware using JSON Web Token
-              and bcryptJs to handle passwords
+              • Game process built using Async/await function
             </li>
             <li>
-              • Used JWT Payload to set up admin role and protect the
-              routes
+             <span className=" font-bold">Tip:</span>  click the mouse past the flower you are trying to collect and Bee will fly faster.
             </li>
           </ul>
 
