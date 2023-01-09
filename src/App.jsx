@@ -42,8 +42,8 @@ function App() {
 </nav> */}
 
             <div className="text-center rounded-3xl   bgrnd  min-h-screen p-10 pt-2">
-            <div  className="pt-20">
-              <h1 className="text-5xl tracking-wider py-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400 font-burtons  md:text-7xl">
+            <div  className="pt-28 md:pt-20">
+              <h1 className="text-5xl tracking-wide py-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400 font-burtons  md:text-7xl">
                
                 Maksym Rusnak
               </h1>
@@ -55,7 +55,7 @@ function App() {
               <p className="text-3xl py-5 font-burton indent-3 italic leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto">
                 
                 Strong professional driven by desire to contribute and make a
-                difference. <span></span> I enjoy working on complex things, connecting dots
+                difference. I enjoy working on complex things, connecting dots
                 together and building a full picture from the ground up.
               </p>
               </div>
