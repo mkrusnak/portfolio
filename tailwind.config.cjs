@@ -27,7 +27,7 @@ module.exports = {
         garamond: 'Garamond'
       },
       backgroundImage: {
-        'backgroundImg': "url('src/assets/output-onlinepngtools (2).png')",
+        'backgroundImg': "url('./src/assets/output-onlinepngtools (2).png')",
       }
     },
   },

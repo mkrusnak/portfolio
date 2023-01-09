@@ -43,12 +43,12 @@ function App() {
 
             <div className="text-center rounded-3xl bg-backgroundImg  bg-opacity-75   min-h-screen p-10 pt-2">
             <div  className="pt-20">
-              <h1 className="text-9xl tracking-wider py-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400 font-burtons  md:text-6xl">
+              <h1 className="text-5xl tracking-wider py-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400 font-burtons  md:text-7xl">
                
                 Maksym Rusnak
               </h1>
               <h2 className="text-3xl text-gray-700 font-burtons py-2 md:text-3xl">
-                <span className="text-gray-700  font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400">Full-stack</span> software
+                <span className="  font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500  to-blue-400 ">Full-stack</span> software
                 developer
               </h2>
               <MyLinks />
