@@ -1,5 +1,5 @@
 import YoutubeLogo from "../assets/youtube.svg";
-import projectIcon from "../assets/icon.png"
+import projectIcon from "../assets/icon.png";
 
 const Project2Links = () => {
   return (
@@ -30,7 +30,6 @@ const Project2Links = () => {
         </button>
       </a>
 
-
       <a href="https://youtu.be/ff3k5rq2Ke4" target="_blank">
         <button
           type="button"
@@ -46,10 +45,7 @@ const Project2Links = () => {
           type="button"
           className="text-gray-900 bg-white hover:bg-gray-50 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
         >
-          <img
-            className="grayscale w-6 h-6 mr-2 -ml-1"
-            src={projectIcon}
-          />
+          <img className="grayscale w-6 h-6 mr-2 -ml-1" src={projectIcon} />
           Visit
         </button>
       </a>

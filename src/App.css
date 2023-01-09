@@ -24,8 +24,13 @@ html {
 }
 
 .bgrnd {
-    background-image: url('../src/assets/output-onlinepngtools (2).png');
+    background-image: url('../src/assets/output-onlinepngtools (2).png');    
 }
+
+/* .bgrnd {
+    background-image: url('../src/assets/dunes.jpg');
+    background-size: cover;
+} */
 
 
 
