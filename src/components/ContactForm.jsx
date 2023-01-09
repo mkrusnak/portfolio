@@ -47,7 +47,7 @@ const ContactForm = () => {
 
 
  <section  className="bg-white dark:bg-gray-900">
-  <div className="py-8 mt-24 md:mt-12 lg:py-10 px-4 mx-auto max-w-screen-md mb-16">
+  <div className="py-8 mt-24 md:mt-12 lg:py-10 px-4 mx-auto max-w-screen-md mb-4">
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Send me a message:</h2>
       {/* <MyLinks /> */}
       <p className="mb-6 lg:mb-10 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
