@@ -31,7 +31,7 @@ function App() {
                 <MyLinks />
                 <p className="text-3xl py-5 font-burton indent-3 italic leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto">
                   Strong professional driven by desire to contribute and make a
-                  difference. I enjoy working on complex things, connecting dots
+                  difference. <br></br> I enjoy working on complex things, connecting dots
                   together and building a full picture from the ground up.
                 </p>
               </div>
