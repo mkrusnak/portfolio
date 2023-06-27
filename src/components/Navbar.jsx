@@ -1,4 +1,4 @@
-import resume from "../assets/Maksym Rusnak resume.pdf";
+import resume from "../assets/resumeRusnak.pdf";
 
 import resumeLogo from "../assets/process-resume.svg";
 import emailLogo from "../assets/—Pngtree—vector email icon_3876640.png";
